@@ -1,10 +1,11 @@
 # DSTI_PROJECT_DATA_PIPELINE
+git url:https://github.com/gouravtiwari489/DSTI_Gourav_Tiwari_DataPipeLine.git
+branch is master
 
 
 
 ## Generate result for customer list 
-1) Clone Repository using
-2) Alternatively running spark command "spark-submit --master local[*] --class main.java.OlistDataProcessing target\Olist-1.0-SNAPSHOT.jar"
+1) Alternatively running spark command "spark-submit --master local[*] --class main.java.OlistDataProcessing target\Olist-1.0-SNAPSHOT.jar"
 2) The output will be in customerdata folder 
 
 
@@ -15,4 +16,3 @@
 3) Upload JAR file and resource folder on bucket using AWS CLI/Console
 4) Goto AWS EMR console and create cluster by providing s3 bucket folder and launch mode as Step execution
 5) Provide type as "Spark Application" and steps or commands
-r 
